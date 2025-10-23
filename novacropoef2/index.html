@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <meta content="Tom Vanhoutte" name="author">
+    <title>Novacorp plain css</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+          rel="stylesheet">
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-xxl">
+            <div class="d-flex gap-2">
+                <div class=" bg-primary d-flex justify-content-center align-items-center rounded-2 text-white"
+                     style="width: 40px; height: 40px;">N
+                </div>
+                <a class="navbar-brand fw-bold border-0" href="#">NovaCorp</a>
+            </div>
+
+            <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler" data-bs-target="#navbarSupportedContent"
+                    data-bs-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-3">
+                    <li class="nav-item">
+                        <a class="nav-link link-dark" href="#">Diensten</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-dark" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-dark" href="#">Prijzen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-dark" href="#">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-dark" href="#">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <button class="btn btn-dark ms-lg-3" type="submit">Vraag demo</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <div style="background:linear-gradient(to bottom, #f8f9fe,#ffffff);">
+        <div class="container-xxl">
+            <section class="py-5" id="hero">
+                <div class="row row-cols-1 row-cols-lg-2 align-items-center ">
+                    <div class="col ">
+                        <span class=" rounded-pill badge bg-primary-subtle text-primary-emphasis border border-primary-subtle mb-3">&bull; Gesertificeerde experts, snelle oplossing</span>
+                        <h1 class="fw-bold">Diensten die resultaat leveren</h1>
+                        <p class="fs-5 text-secondary">
+                            Van snelle marketing sites tot performante webapps. We werken
+                            component-gedreven, toegankelijk en SEO-proof. Kies een pakket,
+                            of stel een traject samen op maat.
+                        </p>
+                        <div class="text-center text-lg-start mt-3">
+                            <a href="">
+                                <button class="btn btn-primary btn-lg border border-3 border-white">Bekijk diensten
+                                </button>
+                            </a>
+                            <a href="">
+                                <button class="btn btn-outline-secondary btn-lg">Plan een call</button>
+                            </a>
+                        </div>
+                        <div class="d-flex justify-content-between flex-wrap pt-3">
+                            <div>
+                                <p class="fw-bold fs-3">300+</p>
+                                <p>Projecten</p>
+                            </div>
+                            <div>
+                                <p class="fw-bold fs-3">98%</p>
+                                <p>Klantentevredenheid</p>
+                            </div>
+                            <div>
+                                <p class="fw-bold fs-3">TTFB < 100ms</p>
+                                <p>Snelheid</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img alt="team werkt aan project"
+                             class="img-fluid shadow-lg rounded-4 border border-5 border-white"
+                             src="images/img.png">
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="d-flex justify-content-between ">
+                    <div class="w-50">
+                        <h2>Onze diensten</h2>
+                        <p>kies een module, of combineer ze tot een end-to-end traject. Alle oplossingen zijn
+                            schaalbaar,veilig en meetbaar.</p>
+                    </div>
+                    <div class="align-content-center">
+                        <a class="btn btn-light border border-secondary-subtle " href="">Offerte op maat</a>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-lg-3">
+                    <article class="col">
+                        <div class="border rounded-3 p-4 shadow-sm mb-4">
+                            <div class="bg-primary-subtle rounded-3 mb-3 align-content-center text-center"
+                                 style="width:40px; height:40px;"><i class="bi bi-chat-left-fill text-primary"></i>
+                            </div>
+                            <h3 class="fw-normal fs-5 pt-2">Marketing-websites</h3>
+                            <p class="my-3">
+                                Pixel-perfect one-pagers en meertalige
+                                sites, razendsnel met
+                                component-bibliotheek. Core Web Vitals
+                                gegarandeerd groen.
+                            </p>
+                            <ul class="list-unstyled">
+                                <li><span class="text-success">&bullet;</span> CMS of headless</li>
+                                <li><span class="text-success">&bullet;</span> Design-system op maat</li>
+                                <li><span class="text-success">&bullet;</span> Hosting & monitoring</li>
+                            </ul>
+
+                            <a class="link-primary text-decoration-none" href="">Meer weten ></a>
+                        </div>
+                    </article>
+                    <article class="col">
+                        <div class="border rounded-3 p-4 shadow-sm mb-4">
+                            <div class="bg-primary-subtle rounded-3 mb-3 align-content-center text-center"
+                                 style="width:40px; height:40px;"><i class="bi bi-circle-fill text-primary"></i></i>
+                            </div>
+                            <h3 class="fw-normal fs-5 pt-2">UX & Branding</h3>
+                            <p class="my-3">
+                                Merkfundamenten, wireframes, design
+                                tokens en interactieve prototypes. Altijd
+                                toegankelijk (WCAG) en responsief.
+                            </p>
+                            <ul class="list-unstyled">
+                                <li><span class="text-success">&bullet;</span> Design-sprints</li>
+                                <li><span class="text-success">&bullet;</span> Usability-test</li>
+                                <li><span class="text-success">&bullet;</span> Design-systemen</li>
+                            </ul>
+
+                            <a class="link-primary text-decoration-none" href="">Meer weten ></a>
+                        </div>
+                    </article>
+                    <article class="col">
+                        <div class="border rounded-3 p-4 shadow-sm mb-4">
+                            <div class="bg-primary-subtle rounded-3 mb-3 align-content-center text-center"
+                                 style="width:40px; height:40px;"><i class="bi bi-calendar3-fill text-primary"></i></i>
+                            </div>
+                            <h3 class="fw-normal fs-5 pt-2">Webapps & intergraties</h3>
+                            <p class="my-3">
+                                Schaalbare apps met moderne stacks
+                                API-koppelingen en automatisaties. Van
+                                MVP tot enterprise.
+                            </p>
+                            <ul class="list-unstyled">
+                                <li><span class="text-success">&bullet;</span> Laravel/ Node/ Next</li>
+                                <li><span class="text-success">&bullet;</span> Rest & GraphQL API's</li>
+                                <li><span class="text-success">&bullet;</span> n8n/ Zapier flows</li>
+                            </ul>
+
+                            <a class="link-primary text-decoration-none" href="">Meer weten ></a>
+                        </div>
+                    </article>
+                    <article class="col">
+                        <div class="border rounded-3 p-4 shadow-sm mb-4">
+
+                            <div class="bg-primary-subtle rounded-3 mb-3 align-content-center text-center"
+                                 style="width:40px; height:40px;"><i
+                                    class="bi bi-filter-circle-fill text-primary"></i></i></div>
+                            <h3 class="fw-normal fs-5 pt-2">Technische SEO</h3>
+                            <p class="my-3">
+                                Schoon HTML/CSS, sstructured data, snelle
+                                TTFB en conversiegerichte
+                                contentarchitectuur
+                            </p>
+                            <ul class="list-unstyled">
+                                <li class="d-flex align-items-center">
+                                    <span class="text-success fs-1 pb-1">&bullet;</span>
+                                    <p class="m-0">Core Web Vitals</p>
+                                </li>
+                                <li><span class="text-success fs-1">&bullet;</span> Schema.org/ OpenGraph</li>
+                                <li><span class="text-success fs-1">&bullet;</span> AI-zoekoptimalisatie</li>
+                            </ul>
+
+                            <a class="link-primary text-decoration-none" href="">Meer weten ></a>
+                        </div>
+                    </article>
+                    <article class="col">
+                        <div class="border rounded-3 p-4 shadow-sm mb-4">
+                            <div class="bg-primary-subtle rounded-3 mb-3 align-content-center text-center"
+                                 style="width:40px; height:40px;"><i class="bi bi-square-fill text-primary"></i></div>
+                            <h3 class="fw-normal fs-5 pt-2">Component-bibliotheek</h3>
+                            <p class="my-3">
+                                Herbruikbare UI-kaarten, sectie-patronen en
+                                utility-first spacing voor razensnelle
+                                opbouw.
+                            </p>
+                            <ul class="list-unstyled">
+                                <li><span class="text-success">&bullet;</span> Figma &harr; code 1-op-1</li>
+                                <li><span class="text-success">&bullet;</span> Design-tokens</li>
+                                <li><span class="text-success">&bullet;</span> NPM pakket</li>
+                            </ul>
+
+                            <a class="link-primary text-decoration-none" href="">Meer weten ></a>
+                        </div>
+                    </article>
+                    <article class="col">
+                        <div class="border rounded-3 p-4 shadow-sm mb-4">
+                            <div class="bg-primary-subtle rounded-3 mb-3 align-content-center text-center"
+                                 style="width:40px; height:40px;"><i
+                                    class="bi bi-menu-button-fill text-primary"></i></i></i></div>
+                            <h3 class="fw-normal fs-5 pt-2">Marketing-websites</h3>
+                            <p class="my-3">
+                                Ondderhoud, beveiliging, analytics en
+                                growt-experiment. we blijven
+                                optimaliseren na lauch
+                            </p>
+                            <ul class="list-unstyled">
+                                <li><span class="text-success">&bullet;</span> SLA & prioritaire support</li>
+                                <li><span class="text-success">&bullet;</span> Dashboarding</li>
+                                <li><span class="text-success">&bullet;</span> A/B-testing</li>
+                            </ul>
+
+                            <a class="link-primary text-decoration-none" href="">Meer weten ></a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="container-xxl " >
+                <h2>Hoe we werken</h2>
+                <p>Transparant, iteratief en meetbaar. Elke fase leveert tastbare output op.</p>
+                <div class="row row-cols-1 row-cols-lg-4">
+                    <article class="col">
+                        <div class="border rounded-5 p-3 shadow-sm mb-4 position-relative">
+                            <i class="bi bi-1-circle-fill position-absolute fs-2" style="margin-top:-40px;margin-left:20px;"></i>
+                            <h3>Analyse & scope</h3>
+                            <p>
+                                Doelen, KPI's, user stories en
+                                technische randvoorwaarden.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="col">
+                        <div class="border rounded-5 p-3 shadow-sm mb-4 position-relative">
+                            <i class="bi bi-2-circle-fill position-absolute fs-2" style="margin-top:-40px;margin-left:20px;"></i>
+                            <h3>Analyse & scope</h3>
+                            <p>
+                                Doelen, KPI's, user stories en
+                                technische randvoorwaarden.
+                            </p>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+        </div>
+    </div>
+</main>
+
+<script crossorigin="anonymous"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
